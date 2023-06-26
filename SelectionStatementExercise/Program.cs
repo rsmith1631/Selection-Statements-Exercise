@@ -10,17 +10,18 @@
 
             var userGuess = int.Parse(Console.ReadLine());
 
-            if(userGuess < myNumber) 
+            if (userGuess < myNumber)
             {
-                Console.Write($"Wrong! The number I'm thinking of is higher.";
+                Console.Write($"Wrong! The number I'm thinking of is higher.");
             }
-            else if(userGuess > myNumber) 
+            else if (userGuess > myNumber)
             {
                 Console.WriteLine($"Incorrect! The number that I'm thinking of is lower.");
             }
+            
             else 
             {
-                Console.WriteLine($"Correct! You guessed 25. That's exactly the number I was thinking of");
+                Console.WriteLine($"Correct! You guessed 25. That's exactly the number I was thinking of.");
             }
         }
     }
