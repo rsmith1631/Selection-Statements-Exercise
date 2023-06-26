@@ -21,7 +21,7 @@
             else
             {
                 Console.WriteLine($"That's the correct guess. Good Job!");
-            }
+            } 
         }
     }
 }
